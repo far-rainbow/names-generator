@@ -1,9 +1,6 @@
 <?php
 
-/** @var integer $familySize How much names to regenerate for each surname. Note: overal names count will be familySize * namesPerCountry */
 $familySize = 1;
-
-/** @var int $namesPerCountry How much names to get for each country code */
 $namesPerCountry = 1;
 
 $countries = array(
