@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 /** @var integer $familySize How much names to regenerate for each surname. Note: overal names count will be familySize * namesPerCountry */
 $familySize = 1;
@@ -159,7 +158,6 @@ foreach ($countries as $countryCode) {
         //print($countryCode . ' -> '. $resultName[1]);
         print($resultName[1]);
         print '<br>'.PHP_EOL;
->>>>>>> refs/remotes/origin/master
     }
 }
 curl_close($curlA);
