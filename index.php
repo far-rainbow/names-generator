@@ -77,7 +77,7 @@ foreach ($countries as $countryCode) {
         // print($countryCode . ' -> '. $resultName[1]);
         print($resultName[1]);
         print '<br>' . PHP_EOL;
-        ob_flush();
+        if (ob_get_level()!=0) ob_flush();
         flush();
     }
 }
